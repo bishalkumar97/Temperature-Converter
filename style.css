@@ -1,0 +1,102 @@
+* {
+    background-color: bisque;
+    text-align: center;
+}
+
+.Box {
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+
+}
+.container{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rightside { 
+    text-align: center;
+        width: 300px;
+        height: 350px;
+        display: inline-block;
+        border: 2px solid cadetblue;
+            float: left;
+                
+    
+}
+
+.leftside {
+    text-align: center;
+        width: 300px;
+        height: 350px;
+        display: inline-block;
+        border: 2px solid cadetblue;
+        background-color: cadetblue;
+    }
+.h1 {
+    background-color: #609d9f;
+    margin-bottom: -8%;
+    position: relative;
+    top:-7% ;
+    font-style:normal;
+font-weight: 900;}
+
+.form{
+        padding-top: 10px;
+        }
+
+
+#btn-reset {
+    transition-duration: 0.4s;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 15px 15px;
+        border-radius: 12px;
+        text-transform: capitalize;
+        position: relative;
+            top: 10px;
+}
+
+#btn-reset:hover {
+    /* all the changes you need after transition */
+    background-color: white;
+    color: black;
+
+}
+
+#btn{
+    transition-duration: 0.4s;
+        background-color: black;
+        color: white;
+        font-size: 20px;
+        font-weight: bolder;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        padding: 15px 15px;
+        border-radius: 12px;
+        text-transform: capitalize;
+        position: relative;
+            top: 10px;
+}
+
+#btn:hover {
+    /* all the changes you need after transition */
+    background-color: white;
+    color: black;
+}
+
+#result {
+        background-color: #609d9f;
+            font-size: 50px;
+            font-family: system-ui;
+            font-weight: 800;
+                margin-top: 110px;
+                color: white;
+        }
+
+.output {
+        background-color: cadetblue;
+        font-family: "Times New Roman",Times,serif;
+    }
